@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
 <meta name="format-detection" content="telephone=no, address=no, email=no" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<title>리뉴얼일진_사업장소개</title>
+<title>리뉴얼일진_회사소개</title>
 
 <meta name="Robots" content="all" />
 <meta name="Keywords" content="" />
@@ -165,8 +165,8 @@ body {
   width: 100%;
   height: 405px;
   background-image: url(./images/sub1_company.jpg);
-  background-image: cover;
-  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   color: #fff;
   text-align: center;
 }
@@ -182,7 +182,7 @@ body {
 #sub1 .container > p {
   font-size: 18px;
   text-transform: uppercase;
-  margin-bottom: 99px;
+  margin-bottom: 97px;
 }
 
 #sub1 .container > .banner-nav {
@@ -197,7 +197,7 @@ body {
 .banner-nav .depth1 {
   height: 70px;
   width: 214px;
-  border-right: 1px solid #B3b3b39a;
+  border-right: 1px solid #b3b3b39a;
   text-align: center;
   padding-top: 25px;
   cursor: pointer;
@@ -276,28 +276,41 @@ body {
 }
 
 .outline-box > .line {
-  margin-top: -30px;
+  margin-top: -40px;
   margin-left: 2px;
+  height: 40px;
+  top: 377px;
 }
 
-.outline-box > h2 {
+.mc{
+	margin: 0 auto;
+	width: 1280px;
+}
+
+.outline-box .mc> h2 {
   color: #fff;
   font-size: 36px;
   font-weight: bold;
-  padding-right: 320px;
+  /* padding-right: 100px; */
   padding-top: 21px;
   text-align: right;
   line-height: 50px;
 }
+.outline-box .mc> .line22{
+width: 50px;
+border-bottom: 2px solid #fff;
+margin-top:100px;
+margin-left: 80%;
+}
 
-.outline-box > h2 .txt-LH {
+.outline-box .mc> h2 .txt-LH {
   letter-spacing: 14px;
 }
 
-.outline-box > p {
+.outline-box .mc> p {
   color: #fff;
   padding-top: 20px;
-  padding-right: 320px;
+  /* padding-right: 100px; */
   font-size: 16px;
   text-align: right;
 }
@@ -316,11 +329,12 @@ body {
 }
 
 #bg-gray > .txt-box {
-  /* width: 30%; */
+  width: 1280px;
   height: 674px;
   /* outline: 1px solid red; */
   margin-top: 192px;
   margin-bottom: 198px;
+  margin-right: 100px;
   color: #000;
   text-align: right;
 }
@@ -519,22 +533,18 @@ body {
 		</div>
 	</header>
 <!-- //header -->
-
-
 <div id="contents">
-<div id="container">
+  <div id="container">
+  
+  <main role="main">
 
-<main role="main">
-	
-<!-- <div class="sub_top sub1 sub16"> -->
-<!--  -->
-<section id="sub1">
+  <section id="sub1">
     <div class="container">
       <h1>회사소개</h1>
       <p>Iljin Materials Produces the Best Products and Services to Countribute to the Developement of Mankind</p>      
       <div class="banner-nav">
         <div class="depth1"><a href="sub1.html">기업소개</a></div>
-        <div class="depth1"><a href="#">CEO인사말</a></div>
+        <div class="depth1"><a href="#">CEO 인사말</a></div>
         <div class="depth1"><a href="#">연구개발</a></div>
         <div class="depth1"><a href="#">인재채용</a></div>
         <div class="depth1"><a href="#">윤리경영</a></div>
@@ -542,237 +552,134 @@ body {
       </div>
     </div>
 
-  
+    <div class="depth2-nav">
+      <div class="depth2"><a href="sub1.html">기업개요</a></div>
+      <div class="depth2"><a href="#">연혁</a></div>
+      <div class="depth2"><a href="#">비전 및 목표</a></div>
+      <div class="depth2"><a href="#">CI 소개</a></div>
+    </div>
+
     <!-- TOP버튼 -->
     <div class="btn-scroll">
-      <a href="sub2.html">
+      <a href="sub1.html">
         <img src="./images/sub1_topbtn.png" alt="TOP버튼">
       </a>
     </div>
+
+    <!-- 기업개요 -->
+    <div class="content">
+      <div id="fake-box"></div>
+      <div class="outline-box">
+        <div class="mc">
+		 <div class="line22"></div>
+        <h2><span class="txt-LH">일진 MATERIALS의<br>첨단소재 기술에는</span><br>미래를 향한 꿈이 담겨 있습니다.</h2>
+        <p>Eecfoil 전문기업에서 첨단소재 기업으로 새로운 도약을 시작합니다.</p>
+		</div>       
+      </div>
+    </div> 
+    
+    <div id="bg-gray">
+      <img src="./images/sub1_pic2.jpg" alt="회사건물">
+      <div class="txt-box">
+        <h2>FROM BEGIN TO <span class="txt-blue">FUTURE</span></h2>
+        <p>
+          창립 이후 전자제품의 핵심소재인 Elecfoil 생산에 매진해왔던 일진Materials는<br>
+          2차전지 산업의 성장과 함께 새로운 전환기를 맞이하였습니다.<br>
+          Elecfoil이 2차전지의 5대 소재 중 하나로 채택된 이후,<br>
+          제품 중 2차전지용 Elecfoil 비중이 크게 확대 되고 있습니다.<br>
+          <br>
+          통해 첨단 그린 에너지 소재산업의 성장가능성에 주목한<br>
+          일진Materials는 특유의 도전정신으로 R&D에 역량을 집중한 결과,<br>
+          2차전지 분야로 사업영역을 확장하게 되었습니다.<br>
+          <br>
+          일진Materials는 앞으로 국내 최고 Elecfoil 전문기업으로서의 입지를<br>
+          확고히 다지는 한편, 신규사업으로 추진하고 있는 5G용 소재의 확장을 통해<br>
+          소재산업의 글로벌 리더로서 면모를 갖출 것입니다.<br>
+        </p>
+      </div>
+    </div>
   </section>
 
-	<!--  -->
-	<div class="titlearea">
+     <section class="section fp-auto-height">
+      <div class="section7">
 
-	</div>
-
-
-</div>
-<!-- sub_top -->
-
-<div class="page m00 m16">
-
-    <h3 class="title1">사업장 안내</h3>
-    <div class="section1">
-        <div class="map">          
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.6207300184897!2d126.94417151558785!3d37.54043683337963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c99cfe8cd1f63%3A0xaea91be87ed0ee77!2z7J287KeE6re466O5!5e0!3m2!1sko!2skr!4v1635080193055!5m2!1sko!2skr" width="100%"  frameborder="0" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-		
-		</div>
-        <div class="mapinfo">
-            <h4>일진그룹 [본사]</h4>
-            <ul>
-                <li>
-                    <strong>서울특별시 마포구 도화동 50-1</strong>
-                    <br />
-                    <span class="tit">T.</span>02.707.9060
-                    <span class="nbsp"></span>
-                    <span class="tit">F.</span>02.707.9294
-                </li>
-                <li>* 자세한 위치 정보 및 교통편은 전화 문의를 통해 알려드립니다.</li>
-            </ul>
-        </div>
-
-    </div>
-
-    <div class="section2">
-        <div class="section_top">
-            <h4>일진머티리얼즈 본사 외 <span class="mbr"></span>사업장입니다.</h4>
-        </div>
-		<!-- <div class="tab_box">
-			<ul>
-				<li class="on"><a>공장</a></li>
-				<li><a>연구소</a></li>
-				<li><a>사무소</a></li>
-			</ul>
-		</div> -->
-        <div class="tabconwrap">
-            <div class="innerwrap2">
-
-                <div class="tabcon">
-                    <div class="mapwrap">
-                        <div>
-                            <div class="map">                                
-								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3229.719943523692!2d126.99905741555618!3d35.95382032258065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357015834a302dc5%3A0x156f9f55e0be54a9!2z7KCE652867aB64-EIOydteyCsOyLnCDtjJTrtInrj5kg7ISd7JWU66GcM-q4uCA2My0yNQ!5e0!3m2!1sko!2skr!4v1635080564942!5m2!1sko!2skr" width="100%"  frameborder="0" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                            </div>
-                            <div class="mapinfo">
-                                <h4>일진 익산공장</h4>
-                                <ul>
-                                    <li>
-                                        <strong>전라북도 익산시 석암로3길 63-25(팔봉동)</strong>
-                                        <br />
-                                        <span class="tit">T.</span>063.835.361
-                                        <span class="nbsp"></span>
-                                        <span class="tit">F.</span>063.835.3620
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div>
-                            <div class="map">                                
-								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25816.64804138616!2d126.9833356188322!3d36.01831523889528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3570147f1bd5c47d%3A0xaa9574154264eb93!2z7KCE652867aB64-EIOydteyCsOyLnCDsgrzquLDrqbQ!5e0!3m2!1sko!2skr!4v1635080697365!5m2!1sko!2skr" width="100%" frameborder="0" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-							</div>
-                            <div class="mapinfo">
-                                <h4>일진 삼기공장</h4>
-                                <ul>
-                                    <li>
-                                        <strong>전라북도 익산시 삼기면 산단구평길 11</strong>
-                                        <br />
-                                        <span class="tit">T.</span>063.730.4710
-                                        <span class="nbsp"></span>
-                                        <span class="tit">F.</span>063.730.4717
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
+      <footer>
+        <div class="wrap">
+          <div class="area_t">
+            <div class="inner_wrap">
+              <ul class="privacy_list">
+                <li><a href="#none" class="data_link p_link2" data-link="report1">개인정보취급방침</a></li>
+                <li><a href="#none" class="data_link p_link1" data-link="email1">이메일무단수집거부</a></li>
+                <li><a href="#none" class="data_link p_link1" data-link="email1">법적고지</a></li>
+                <li><a href="#none" class="data_link p_link1" data-link="email1">이메일문의</a></li>
+                <div class="info">
+                  <p class="addr"><span>서울특별시 마포구 마포대로 45(도화동) TEL: 02-707-9130</span></p>													
                 </div>
-                <div class="tabcon">
-                    <div class="mapwrap">
-                        <div>
-                            <div class="map">
-                     			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3184.1624716820934!2d126.9725401155779!3d37.05361126109281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b3d9646ed7321%3A0xec5d00b20618e837!2z7Ja07Jew7ZWc7IKw7KeA67Cp7IKw7JeF64uo7KeA!5e0!3m2!1sko!2skr!4v1635081768627!5m2!1sko!2skr" width="100%" frameborder="0" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-							</div>
-                            <div class="mapinfo">
-                                <h4>일진디스플레이</h4>
-                                <ul>
-                                    <li>
-                                        <strong>경기도 평택시 청북면 청북산단로 99번길 18 어연·한산지방산업단지 8블럭</strong>
-                                        <br />
-                                        <span class="tit">T.</span>031.680.0114
-                                        <span class="nbsp"></span>
-                                        <span class="tit">F.</span>031.680.0129
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div>
-                            <div class="map">                     
-							   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6340.962700155795!2d126.63685572745112!3d37.378447344943574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b764dfb703bad%3A0xf6042ca5e1777018!2z7J247LKc6rSR7Jet7IucIOyXsOyImOq1rCDshqHrj4Qx64-ZIOuypOyymOuhnA!5e0!3m2!1sko!2skr!4v1635085575788!5m2!1sko!2skr" width="100%" frameborder="0" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-							</div>
-                            <div class="mapinfo">
-                                <h4>일진반도체</h4>
-                                <ul>
-                                    <li>
-                                        <strong>인천광역시 연수구 벤처로12번길 14(송도동)</strong>
-                                        <br />
-                                        <span class="tit">T.</span>032.714.6426
-                                        <span class="nbsp"></span>
-                                        <span class="tit">F.</span>032.715.7105
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-				<div class="tabcon">
-					<div class="mapwrap">
-						<div>
-							<div class="map">								
-								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.161126912061!2d127.06266911558724!3d37.50411773545758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca43eefd814d5%3A0x7a8df181cdb4c5e0!2z7ISc7Jq47Yq567OE7IucIOqwleuCqOq1rCDrjIDsuZjrj5kg7JiB64-Z64yA66GcIDMzMw!5e0!3m2!1sko!2skr!4v1635085934747!5m2!1sko!2skr" width="100%" frameborder="0" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-							</div>
-							<div class="mapinfo">
-								<h4>일진건설</h4>
-								<ul>
-									<li>
-										<strong>서울특별시 강남구 영동대로 333 동원빌딩 10층</strong>
-										<br />
-										<span class="tit">T.</span>02.3452.3791
-										<span class="nbsp">F.</span>02.3452.3792
-										<!-- <span class="tit">F.</span>+86-510-8522-4096 -->
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div>
-							<div class="map">								
-								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.0592735317878!2d127.06060761558726!3d37.50652013532012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca43fc090125d%3A0x733c4177fabc473!2z64-Z7JuQ67mM65Sp!5e0!3m2!1sko!2skr!4v1635086069562!5m2!1sko!2skr" width="100%" frameborder="0" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-							</div>
-							<div class="mapinfo">
-								<h4>일진유니스코</h4>
-								<ul>
-									<li>
-										<strong>서울특별시 강남구 영동대로 333 동원빌딩 7층</strong>
-										<br />
-										<span class="tit">T.</span>02.6353.0114
-										<span class="nbsp"></span>
-										<span class="tit">F.</span>02.6353.0100
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
+              </ul>											
             </div>
+          </div>
+          <div class="area_b">
+            <div class="inner_wrap">
+              <p class="copy">COPYRIGHTⓒ ILJIN MATERIALS CO., Ltd. ALL RIGHTS RESERVED</p>											
+            </div>
+            <div class="inner_wrap">
+              <span class="foot_logo"><img src="./img/sub3_logo_w.png" alt="로고" /></span>
+            </div>
+            
+          </div>
         </div>
+      </footer>
+      
+     </section> 
 
-    </div>
-	
-</main>
-</div><!--//container-->
-</div><!--//contents -->
-
-<section class="section fp-auto-height">
-	<div class="section7">
-	<footer>
-		<div class="wrap">
-			<div class="area_t">
-				<div class="inner_wrap">
-					<ul class="privacy_list">
-						<li><a href="#none" class="data_link p_link2" data-link="report1">개인정보취급방침</a></li>
-						<li><a href="#none" class="data_link p_link1" data-link="email1">이메일무단수집거부</a></li>
-						<li><a href="#none" class="data_link p_link1" data-link="email1">법적고지</a></li>
-						<li><a href="#none" class="data_link p_link1" data-link="email1">이메일문의</a></li>
-						<div class="info">
-							<p class="addr"><span>서울특별시 마포구 마포대로 45(도화동) TEL: 02-707-9130</span></p>													
-						</div>
-					</ul>											
-				</div>
-			</div>
-			<div class="area_b">
-				<div class="inner_wrap">
-					<p class="copy">COPYRIGHTⓒ ILJIN MATERIALS CO., Ltd. ALL RIGHTS RESERVED</p>											
-				</div>
-				<div class="inner_wrap">
-					<span class="foot_logo"><img src="./img/sub3_logo_w.png" alt="로고" /></span>
-				</div>
-				</div>
-			</div>
-		</div>
-	</footer>
-	</div>
- </section> 
- 
-<!--     
-<footer id="main-footer">
-<div class="footer-container">
-<img src="images/sub3_logo_w.png" alt="logo">
-<div class="footer-center">
-<ul>
-	<li><a href="#">개인정보취급방침</a>
-	<span> | </span></li>
-	<li><a href="#">이메일무단수집거부</a><span> | </span></li>
-	<li><a href="#">법적고지</a><span> | </span></li>
-	<li><a href="#">이메일문의</a></li>
-</ul>
-
-<p class="address">서울특별시 마포구 마포대로 45 (도화동)  TEL: 02-707-9130</p>
-<p class="copyright"> &copy; ILJIN MATERIALS CO. Ltd. ALL RIGHTS RESERVED</p>
-</div>
-<div>
-</footer>  -->
-<!-- footer end -->
+    <!-- <div class="container">
+      <div class="logo-box">
+        <img src="./images/logo-footer.png" alt="footer 로고">
+      </div>
+      <div class="txt-footer">
+        <a href="#">개인정보취급방침</a>   |     
+        <a href="#">이메일무단수집거부</a>   |   
+        <a href="#">법적고지</a>   |  
+        <a href="#">이메일문의</a><br>
+              서울특별시 마포구 마포대로 45 (도화동)  TEL: 02-707-9130<br>
+        <span class="rights">ⓒ ILJIN MATERIALS CO. Ltd. ALL RIGHTS RESERVED</span>
+              
+      </div>
+    </div>  -->
+  
 </body>
+
 </html>
+
+<script type="text/javascript">
+
+	$(function(){
+		$(window).scroll(function(){
+		var scrollT=$(window).scrollTop();
+		
+		if(scrollT>0){
+			$('.page_top').fadeIn();
+		}else{
+			$('.page_top').fadeOut();
+		}
+		})
+		 $("#top_btn").click(function(){
+			$('body,html').animate({scrollTop: 0}, 300);
+		});
+
+	});
+	function checkOffset() {
+		var a=$(document).height()-$(window).height();
+		var b=$('footer').height();
+		scroll = $(window).scrollTop();
+
+		if (scroll > a-b) {
+		$(".page_top").css("position","absolute");
+		}else {
+		$(".page_top").css("position","fixed");
+		}
+	}
+	$(document).ready(checkOffset);
+	$(document).scroll(checkOffset);
+
+</script>
