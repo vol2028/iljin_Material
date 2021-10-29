@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+  color: #000;
+}
+
+
+/* header */
+
+/* <- header */
+
+
+/* 회사소개 배너 */
+#sub2 .container {
+  /* outline: 1px solid red; */
+  margin: 0 auto;
+  width: 100%;
+  height: 405px;
+  background-image: url(../images/sub1_company.jpg);
+  background-image: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  text-align: center;
+}
+
+#sub2 .container > h1 {
+  font-size: 50px;
+  font-weight: normal;
+  padding-top: 137px;
+  padding-bottom: 20px;
+}
+
+#sub2 .container > p {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 99px;
+}
+
+#sub2 .container > .banner-nav {
+  width: 100%;
+  height: 70px;
+  /* outline: 1px solid green; */
+  display: flex;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.308);
+}
+
+.banner-nav .depth1 {
+  height: 70px;
+  width: 214px;
+  border-right: 1px solid #b3b3b39a;
+  text-align: center;
+  padding-top: 25px;
+  cursor: pointer;
+}
+
+.banner-nav .depth1 > a {
+  color: #fff;
+  font-size: 18px;
+}
+
+.banner-nav .depth1:last-child {
+  border-right: none;
+}
+
+.banner-nav .depth1:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.depth2-nav {
+  width: 100%;
+  height: 70px;
+  /* outline: 1px solid pink; */
+  margin-top: 45px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #c0c0c0;
+  cursor: pointer;
+}
+
+.depth2-nav .depth2:first-child {
+  margin-left: 424px;
+}
+
+.depth2-nav .depth2 {
+  /* outline: 1px solid red; */
+  width: 320px;
+  text-align: center;
+  margin-right: 220px;
+}
+
+.depth2-nav .depth2:hover {
+  border-bottom: 7px solid #1390C7;
+}
+
+.depth2-nav .depth2:last-child {
+ margin-right: 424px;
+}
+
+.depth2-nav .depth2 a {
+  color: #000;
+  font-size: 24px;
+}
+
+/* 사업장안내 콘텐츠 */
+#sub2 > .content > h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 130px;
+  margin-bottom: 21px;
+  font-weight: normal;
+}
+
+#sub2 > .content > img {
+  height: 40px;
+  display: block;
+  margin: 0 auto;
+}
+
+#sub2 > .content > #head-iljin {
+  display: block;
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+
+#sub2 > .content > .txt-content {
+  width: 100%;
+  margin-bottom: 268px;
+  /* outline: 1px solid blue; */
+  display: flex;
+  justify-content: center;
+}
+
+.content > .txt-content .map-title {
+  width: 260px;
+  border-right: 1px solid #5e5e5e;
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 60px;
+}
+
+.content > .txt-content .map-info 
+{font-size: 18px; line-height: 30px;}
+
+
+#sub2 #other-maps {width: 100%; height: 950px;}
+
+#sub2 #other-maps > h2
+{font-size: 32px; font-weight: bold; text-align: center; margin-bottom: 100px;}
+
+#other-maps > .map-container {
+  width: 1280px; height: 578px; display: flex; justify-content: space-between; margin: 0 auto;}
+
+#other-maps > .map-container > .map-box 
+{width: 600px; height: 578px; margin-bottom: 236px; box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);}
+
+#other-maps > .map-container > .map-box > .txt-box
+{width: 100%; height: 178px; display: flex;}
+
+#other-maps > .map-container > 
+.map-box > .txt-box >.txt-flex:first-child
+{width: 204px; height: 111px; margin-top: 30px; 
+margin-left: 30px; border-right: 1px solid #707070;}
+
+#other-maps > .map-container > 
+.map-box > .txt-box >.txt-flex:first-child > .txt-name
+{font-size: 30px; font-weight: bold; display: inline-block;
+margin-top: 39px; margin-right: 25px;}
+
+#other-maps > .map-container > 
+.map-box > .txt-box > .txt-flex:nth-child(2)
+{margin-top: 30px; width: 322px; height: 111px;}
+
+#other-maps > .map-container > .map-box > 
+.txt-box > .txt-flex:nth-child(2) > .txt-info 
+{font-size: 16px; margin-top: 39px; margin-left: 34px; 
+line-height: 30px; display: inline-block; font-weight: normal;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
